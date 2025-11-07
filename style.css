@@ -1,0 +1,157 @@
+body{
+    background-color: hsl(0, 0%, 98%);
+    max-width: 100%;
+}
+.container{
+    width: 74%;
+    max-width: 100%;
+    /* margin-left: auto;
+    margin-right: auto; */
+   
+}
+header {
+    background-color: #3f51b5;
+    color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 1px; 
+    width: 135%;
+    gap: 1px;
+}
+.logo1{
+    height: 60px;
+    /* display: flex; */
+    text-decoration: none;
+    border-radius: 50px;
+    width: 40px;
+}
+
+nav a {
+    color: white;
+    margin-left: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px;
+} 
+.nav-menu ul{
+    gap: 20px;
+}
+nav ul {
+    list-style: none;
+
+}
+nav ul li{
+    float: left;
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+    margin-right: 35px;
+    /* letter-spacing: 1px; */
+    font-weight: bold;
+    transition: ease-in;
+    padding: 0 1px;
+}
+
+.logo{
+    color: red;
+    padding-right: 500px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/* section{
+    padding: 2rem;
+    text-align: center;
+} */
+
+.spanen{
+    color: orange;
+}
+.spanon{
+    color: blue;
+}
+
+ul li a {
+    letter-spacing: 4px;
+}
+
+ul li:hover a{
+    color: #2C9AB7;
+}
+ 
+.images-gallery{
+    width: 86%;
+} 
+
+.images-gallery img{
+    width: 16%;
+    height: 160px;
+    max-width: 100%;
+}
+
+.hero{
+    width: 160%;
+}
+
+ /* .img1{
+    width: 190px;
+}
+.img2{
+    width: 190px;
+}
+.img3{
+    width: 190px;
+}
+.img4{
+    width: 190px;
+}
+.img5{
+    width: 190px;
+}
+.img6{
+    width: 190px;
+} */
+
+.footer_text{
+    background-color: yellow;
+    color: red;
+   height: 190px;
+   padding-left: 20px;
+   padding-top: 40px;
+   padding-bottom: 20px;
+   margin-top: 20px;
+   width: 130%;
+}
+.footer_img{
+    float: right;
+    height: 155px;
+    width: 350px;
+    margin-top: -116px;
+}
+.copyright{
+    background-color: red;
+    padding: 20px;
+    width: 128%;
+}
+
+/* RESPONSIVE PROJECT */
+
+@media (max-width: 768px){
+    header{
+        padding: 20px 50px;
+        width: 109%;
+    }
+    nav ul li{
+        padding-left: 1px;
+    }
+
+    .images-gallery img{
+        width: 30%;
+        gap: 20px;
+    }
+    
+
+    
+
+}
